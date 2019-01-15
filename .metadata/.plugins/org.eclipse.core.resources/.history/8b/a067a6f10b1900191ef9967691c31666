@@ -1,0 +1,24 @@
+package course;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class datas {
+
+	public static void main(String[] args) {
+		
+		SimpleDateFormat sdf1 =  new SimpleDateFormat("dd/MM/yyyy");
+		
+		
+		Date y = new Date(System.currentTimeMillis());
+		Date d = new Date();
+
+		System.out.println(d);
+		
+	
+		System.out.println(sdf1.format(y));
+	
+	
+	}
+
+}

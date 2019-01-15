@@ -1,0 +1,19 @@
+package course;
+
+public class funcoes_string {
+
+	public static void main(String[] args) {
+		String original = "abcde FGHTIJ ABC abc DEFG";
+		
+		String s01 = original.toLowerCase();
+		String s02 = original.toUpperCase();
+		String s03 = original.trim();
+		
+		System.out.println("Original: " + original);
+		System.out.println("Tolowercase: " + s01);
+		System.out.println("toUPPERcase: " + s02);
+		System.out.println("Trim: " + s03);
+		
+	}
+
+}

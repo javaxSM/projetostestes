@@ -1,0 +1,29 @@
+package course;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program_b5 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine();
+		char gender = sc.next().charAt(0); // F
+		String s = sc.next(); // b5
+		char letter = s.charAt(0); // pegar na primeira posição 1 unico caracter.
+		int digit = Integer.parseInt(s.substring(1)); // Pegar primeira posição o primeiro valor inteiro.
+		
+		
+		System.out.println(name);
+		System.out.println(gender);
+		System.out.println(letter);
+		System.out.println(digit);
+		
+
+		sc.close();
+		
+
+	}
+
+}

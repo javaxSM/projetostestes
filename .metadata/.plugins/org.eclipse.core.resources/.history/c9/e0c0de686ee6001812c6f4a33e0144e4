@@ -1,0 +1,10 @@
+package course;
+
+public class expressao_condicional_ternaria {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package course;
+
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.util.Calendar;
+import java.util.Date;
+
+public class datas {
+
+	public static void main(String[] args) {
+		
+		SimpleDateFormat sdf1 =  new SimpleDateFormat("dd/MM/yyyy");
+		
+	
+		
+		Date y = Date.from(Instant.parse("15/01/2019T19:47Z"));
+		
+		
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(y);
+		y = cal.getTime();
+		
+		System.out.println(sdf1.format(y));
+		
+		
+	
+		System.out.println(sdf1.format(y));
+	
+	
+	}
+
+}

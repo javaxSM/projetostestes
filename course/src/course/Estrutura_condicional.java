@@ -1,0 +1,32 @@
+package course;
+
+import java.util.Scanner;
+
+public class Estrutura_condicional {
+
+	public static void main(String[] args) {
+		// Verifica qual numero maior.
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite tres numeros na mesma linha: ");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		
+		if(a > b && a > c) {
+			System.out.println(a);
+		}
+		else if (b > a && b > c) {
+			System.out.println(b);
+		}
+		else if(c > a && c > b) {
+			System.out.println(c);
+		}
+		else if (a == b || a == c) {
+			System.out.println(a);
+		}
+		
+		sc.close();
+
+	}
+
+}

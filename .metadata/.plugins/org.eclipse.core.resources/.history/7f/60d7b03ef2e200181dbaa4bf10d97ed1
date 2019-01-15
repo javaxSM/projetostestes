@@ -1,0 +1,27 @@
+package course;
+
+import java.util.Scanner;
+
+public class Estrutura_condicional {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digit one number: ");
+		int a = sc.nextInt();
+		
+		if(a % 2 == 0) {
+			
+			System.out.println("Even!(Par)");
+		}
+		else {
+			System.out.println("odd!(impar)");
+		}
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}
