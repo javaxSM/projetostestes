@@ -21,6 +21,9 @@ public class datas {
 		y = cal.getTime();
 		
 		System.out.println(sdf1.format(y));
+		
+	
+	
 	}
 
 }
